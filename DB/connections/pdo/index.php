@@ -1,6 +1,6 @@
 <?php
 require_once("includes/connection.php");
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM names";
 $res1 = $db->query($query, PDO::FETCH_ASSOC);
 
 foreach ($res1 as $row) {

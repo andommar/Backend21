@@ -2,7 +2,7 @@
 -- version 4.0.4
 -- http://www.phpmyadmin.net
 --
--- Vært: localhost
+-- Vï¿½rt: localhost
 -- Genereringstid: 11. 01 2014 kl. 12:40:48
 -- Serverversion: 5.6.12-log
 -- PHP-version: 5.4.12
@@ -35,5 +35,5 @@ CREATE TABLE IF NOT EXISTS `names` (
 --
 
 INSERT INTO `names` (`ID`, `fname`, `lname`, `age`) VALUES
-(1, 'Kim', 'Thøisen', 28),
+(1, 'Kim', 'ThÃ¸isen', 36),
 (2, 'Jens', 'Peterser', 54);
