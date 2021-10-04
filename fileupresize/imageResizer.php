@@ -58,6 +58,7 @@ class imageResizer {
 		$this -> image = $new_image;
 	}
 }
+/*
 function dostuff($scale){
 $size = new imageResizer();
 $size->load("img.jpg");
@@ -65,3 +66,4 @@ $size->scale($scale);
 $size->save("img/img.jpg");
 }
 dostuff(25);
+*/
